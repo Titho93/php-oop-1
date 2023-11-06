@@ -11,3 +11,12 @@ $movies = [
     new Movie ( "Gli ultimi Jedi", "En", "Star Wars: Episodio VIII - Gli ultimi Jedi", 2017, new Media('Episode VIII.jpg', "Gli ultimi Jedi")),
     new Movie ( "L'ascesa di Skywalker", "En", "Star Wars: Episodio IX - L'ascesa di Skywalker", 2019, new Media('Episode IX.jpg', "L'ascesa di Skywalker")),
 ];
+
+$series = [
+    new Serie ( "The Mandalorian", "En", "Star Wars: The Mandalorian", 2023, new Media('Mandalorian.webp', "The Mandalorian")),
+    new Serie ( "The Book of Boba Fett", "En", "Star Wars: The Book of Boba Fett", 2021, new Media('Boba-fett.jpg', "The Book of Boba Fett")),
+    new Serie ("The Bad Batch", "En", "Star Wars: The Bad Batch", 2021, new Media('BadBatch.webp', "The Bad Batch")),
+    new Serie ( "Obi-Wan Kenobi", "En", "Star Wars: Obi-Wan Kenobi", 2002, new Media('Obi-wan.jpg', "Obi-Wan Kenobi")),
+    new Serie ( "Andor", "En", "Star Wars: Andor", 2022, new Media('Andor.jpg', "Andor")),
+    new Serie ( "Ahsoka", "En", "Star Wars: Ahsoka", 2023, new Media('Ahsoka.jpg', "Ahsoka")),
+];

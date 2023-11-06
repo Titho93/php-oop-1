@@ -1,6 +1,7 @@
 <?php
 
 require_once __DIR__ . '/Model/Movie.php';
+require_once __DIR__ . '/Model/Serie.php';
 require_once __DIR__ . '/Model/Media.php';
 require_once __DIR__ . '/db/db.php';
 
@@ -30,6 +31,23 @@ require_once __DIR__ . '/db/db.php';
                     <p class="card-text"><?php echo $movie->bio ?></p>
                     <p class="card-text"><?php echo $movie->year ?></p>
                     <p class="card-text"><?php echo $movie->language ?></p>
+                    
+                </div>
+            </div>
+        <?php endforeach; ?>
+    </div>
+
+    <h1 class='text-center py-3'>Star Wars Series</h1>
+
+    <div class="container py-5 d-flex">
+        <?php foreach($series as $serie): ?>
+            <div class="card mx-5 " style="width: 18rem;">
+                <img src="img/<?php echo $serie->image->path ?>" class="card-img-top" alt="<?php echo $serie->image->name ?>">
+                <div class="card-body">
+                    <h5 class="card-title"><?php echo $serie->title ?></h5>
+                    <p class="card-text"><?php echo $serie->bio ?></p>
+                    <p class="card-text"><?php echo $serie->year ?></p>
+                    <p class="card-text"><?php echo $serie->language ?></p>
                     
                 </div>
             </div>
