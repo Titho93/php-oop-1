@@ -15,6 +15,11 @@ body {
 
 .container {
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 40px;
 }
 
 .card img {
