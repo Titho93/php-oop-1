@@ -33,10 +33,15 @@ $movies = [
 </head>
 <body>
     
-<div class="container">
+<div class="container py-5 ">
+    <?php foreach($movies as $movie): ?>
     <div class="row">
-        <div class="col"></div>
+        <div class="col"><?php echo $movie->title ?></div>
+        <div class="col"><?php echo $movie->language ?></div>
+        <div class="col"><?php echo $movie->bio ?></div>
+        <div class="col"><?php echo $movie->year ?></div>
     </div>
+    <?php endforeach; ?>
 </div>
 
 </body>
