@@ -4,8 +4,16 @@
     box-sizing: border-box;
 }
 
-.container {
+h1 {
+    font-size: 80px;
+    color: rgb(254, 203, 1);
+}
+
+body {
     background-color: black;
+}
+
+.container {
     justify-content: center;
 }
 

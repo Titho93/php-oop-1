@@ -19,7 +19,7 @@ require_once __DIR__ . '/db/db.php';
 </head>
 <body>
     
-    <h1 class='text-center py-3'>Movies</h1>
+    <h1 class='text-center py-3'>Star Wars Movies</h1>
 
     <div class="container py-5 d-flex">
         <?php foreach($movies as $movie): ?>
