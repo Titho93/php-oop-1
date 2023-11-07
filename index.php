@@ -30,8 +30,17 @@ require_once __DIR__ . '/db/db.php';
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $product->title ?></h5>
                     <p class="card-text"><?php echo $product->bio ?></p>
-                    <p class="card-text"><?php echo implode(" - ", $product->cast) ?></p>
-                    <p class="card-text"><?php echo get_class($product) ?></p>
+                    <p class="card-text">
+                        <strong>Cast:</strong> 
+                        <?php echo implode(" - ", $product->cast) ?>
+                    </p>
+                    <p class="card-text">Type: <?php echo get_class($product) ?></p>
+                    <p class="card-text"><?php echo $product->published_year ?? null ?></p>
+                    <p class="card-text"><?php echo $product->running_time ?? null ?></p>
+                    <p class="card-text"><?php echo $product->aired_from_year ?? null ?></p>
+                    <p class="card-text"><?php echo $product->aired_to_year ?? null ?></p>
+                    <p class="card-text"><?php echo $product->umber_of_episodes ?? null ?></p>
+                    <p class="card-text"><?php echo $product->number_of_seasons ?? null ?></p>
                     
                 </div>
             </div>
