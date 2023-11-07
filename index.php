@@ -35,7 +35,7 @@ require_once __DIR__ . '/db/db.php';
                         <?php echo implode(" - ", $product->cast) ?>
                     </p>
                     <p class="card-text">Type: <?php echo get_class($product) ?></p>
-                    <p class="card-text"><?php echo $product->getPublishedYear ?? null ?></p>
+                    <p class="card-text"><?php echo $product->published_year ?? null ?></p>
                     <p class="card-text"><?php echo $product->running_time ?? null ?></p>
                     <p class="card-text"><?php echo $product->aired_from_year ?? null ?></p>
                     <p class="card-text"><?php echo $product->aired_to_year ?? null ?></p>
