@@ -12,7 +12,7 @@ class Serie extends Production {
         $this->number_of_episodes = $_number_of_episodes;
         $this->number_of_seasons = $_number_of_seasons;
 
-        parent::__construct(string $_title, string $_language, string $_bio, array $_cast, Media $_image);
+        parent::__construct($_title, $_language, $_bio, $_cast, $_image);
     }
 
 
