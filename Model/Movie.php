@@ -10,4 +10,5 @@ class Movie extends Production{
 
         parent::__construct($_title, $_language, $_bio, $_cast, $_image);
     }
+
 };
