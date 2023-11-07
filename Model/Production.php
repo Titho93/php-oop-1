@@ -1,17 +1,16 @@
-<?php 
+<?php
 
-class Serie extends Production {
+class Production {
     public $title;
     public $language;
     public $bio;
-    public $year;
-    public $image;
+    public $cast;
 
-    public function __construct(string $_title, string $_language, string $_bio, float $_year, Media $_image){
+    public function __construct( string $_title, string $_language, string $_bio, array $_cast, Media $_image){
         $this->title = $_title;
         $this->language = $_language;
         $this->bio = $_bio;
-        $this->year = $_year;
+        $this->cast = $_cast;
         $this->image = $_image;
     }
 

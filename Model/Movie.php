@@ -1,6 +1,6 @@
 <?php
 
-class Movie{
+class Movie extends Production{
     public $title;
     public $language;
     public $bio;
