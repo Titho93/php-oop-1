@@ -31,7 +31,7 @@ require_once __DIR__ . '/db/db.php';
                     <h5 class="card-title"><?php echo $product->title ?></h5>
                     <p class="card-text"><?php echo $product->bio ?></p>
                     <p class="card-text"><?php echo implode(" - ", $product->cast) ?></p>
-                    <p class="card-text"><?php echo $product->language ?></p>
+                    <p class="card-text"><?php echo get_class($product) ?></p>
                     
                 </div>
             </div>
