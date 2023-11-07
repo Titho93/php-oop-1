@@ -5,6 +5,7 @@ class Production {
     public $language;
     public $bio;
     public $cast;
+    public $image;
 
     public function __construct( string $_title, string $_language, string $_bio, array $_cast, Media $_image){
         $this->title = $_title;
