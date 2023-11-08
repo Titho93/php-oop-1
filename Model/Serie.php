@@ -15,5 +15,8 @@ class Serie extends Production {
         parent::__construct($_title, $_language, $_bio, $_cast, $_image);
     }
 
+    public function getInfo(){
+        return "Aired from: $this->aired_from_year, Aired to: $this->aired_to_year, Episodes: $this->number_of_episodes, Seasons: $this->number_of_seasons";
+    }
 
 }

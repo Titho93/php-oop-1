@@ -10,4 +10,8 @@ class Movie extends Production{
 
         parent::__construct($_title, $_language, $_bio, $_cast, $_image);
     }
+
+    public function getInfo(){
+        return "Published: $this->published_year, Time: $this->running_time";
+    }
 };
