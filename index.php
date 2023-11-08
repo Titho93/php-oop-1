@@ -1,6 +1,7 @@
 <?php
 
 try {
+    require_once __DIR__ . '/Traits/Published.php';
     require_once __DIR__ . '/Model/Production.php';
     require_once __DIR__ . '/Model/Movie.php';
     require_once __DIR__ . '/Model/Serie.php';
@@ -49,6 +50,7 @@ try {
                             <?php echo implode(" - ", $product->cast) ?>
                         </p>
                         <p class="card-text">Type: <?php echo get_class($product) ?></p>
+                        <p class="card-text"><?php echo $product->getYear() ?? null ?></p>
                         <p class="card-text"><?php echo $product->getInfo() ?? null ?></p>
                     </div>
                 </div>

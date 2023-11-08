@@ -1,7 +1,7 @@
 <?php
 
 $Production = [
-    new Movie("", "En", "Star Wars: Episodio I - La minaccia fantasma", ['Liam Neeson', 'Ewan McGregor', 'Natalie Portman', 'Jake Lloyd'], new Media('Episode I.jpg', "La minaccia fantasma"), 1999, "2:16"),
+    new Movie("La minaccia fantasma", "En", "Star Wars: Episodio I - La minaccia fantasma", ['Liam Neeson', 'Ewan McGregor', 'Natalie Portman', 'Jake Lloyd'], new Media('Episode I.jpg', "La minaccia fantasma"), 1999, "2:16"),
     new Movie("L'attacco dei cloni", "En", "Star Wars: Episodio II - L'attacco dei cloni", ['Ewan McGregor', 'Natalie Portman', 'Hayden Christensen', 'Samuel L. Jackson'], new Media('Episode II.jpg', "L'attacco dei cloni"), 2002, "2:22"),
     new Movie("La vendetta dei Sith", "En", "Star Wars: Episodio III - La vendetta dei Sith", ['Ewan McGregor', 'Natalie Portman', 'Hayden Christensen', 'Samuel L. Jackson'], new Media('Episode III.webp', "La vendetta dei Sith"), 2005, "2:20"),
     new Serie("The Bad Batch", "En", "Star Wars: The Bad Batch", ['Ming-Na Wen', 'Dee Bradley Baker', 'Michelle Ang'], new Media('BadBatch.webp', "The Bad Batch"), 2021, 2023, 32, 2),
