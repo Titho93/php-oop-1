@@ -46,10 +46,10 @@ try {
                         <h5 class="card-title"><?php echo $product->title ?></h5>
                         <p class="card-text"><?php echo $product->bio ?></p>
                         <p class="card-text">
-                            <strong>Cast:</strong>
+                            <strong class="title">Cast:</strong>
                             <?php echo implode(" - ", $product->cast) ?>
                         </p>
-                        <p class="card-text">Type: <?php echo get_class($product) ?></p>
+                        <p class="card-text"><strong class="title">Type:</strong> <?php echo get_class($product) ?></p>
                         <p class="card-text"><?php echo $product->getYear() ?? null ?></p>
                         <p class="card-text"><?php echo $product->getInfo() ?? null ?></p>
                     </div>

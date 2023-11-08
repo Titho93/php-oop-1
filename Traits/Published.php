@@ -7,6 +7,6 @@ trait Published
 
     public function getYear()
     {
-        return "Published: $this->published_year";
+        return "<strong class='title'>Published:</strong> $this->published_year";
     }
 }

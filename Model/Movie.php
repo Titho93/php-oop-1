@@ -13,6 +13,6 @@ class Movie extends Production
 
     public function getInfo()
     {
-        return  "Time: $this->running_time";
+        return  "<strong class='title'>Time:</strong> $this->running_time";
     }
 };

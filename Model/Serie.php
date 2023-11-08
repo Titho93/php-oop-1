@@ -17,6 +17,6 @@ class Serie extends Production
 
     public function getInfo()
     {
-        return "Aired to: $this->aired_to_year, Episodes: $this->number_of_episodes, Seasons: $this->number_of_seasons";
+        return "<strong class='title'>Aired to:</strong> $this->aired_to_year, <strong class='title'>Episodes:</strong> $this->number_of_episodes, <strong class='title'>Seasons:</strong> $this->number_of_seasons";
     }
 }

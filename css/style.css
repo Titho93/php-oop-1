@@ -9,6 +9,10 @@ h1 {
     color: rgb(254, 203, 1);
 }
 
+h5 {
+    color: white;
+}
+
 body {
     background-color: black;
 }
@@ -19,7 +23,14 @@ body {
 }
 
 .card {
+    background-color: black;
+    border: 2px solid rgb(254, 203, 1);
     margin-bottom: 40px;
+    color: rgb(254, 203, 1);
+}
+
+.title {
+    color: white;
 }
 
 .card img {
